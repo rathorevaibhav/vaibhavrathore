@@ -20,6 +20,29 @@ body{
 	padding-bottom: 90px;
 }
 
+#header_nav{
+	background-color: $green;
+	color: $white;
+	.navbar-brand{
+		font-size: 20px;
+		cursor: pointer;
+		text-transform: uppercase;
+		color: $white;
+	}
+	.nav.navbar-nav{
+		font-size: 16px;
+	}
+	.navbar-toggle{
+		border-color: $white;
+		&:hover{
+			background-color: transparent;
+		}
+		.icon-bar{
+			background-color: $white;
+		}
+	}
+}
+
 .blogs-container{
 	@extend .home-container;
 	.blog-row{
@@ -33,7 +56,7 @@ body{
 	    padding: 15px;
 	    border-radius: 10px;
 	    margin: 15px;
-	    transition: 0.3s;
+	    transition: 0.3s transform;
 	    cursor: pointer;
 	    width: 30%;
 	    &:hover{
