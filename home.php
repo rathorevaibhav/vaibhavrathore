@@ -11,7 +11,7 @@
 		?>
 				<div class="blog-block ">
 					<div class="title"><?php the_title(); ?></div>
-					<div class="date"><?php the_time('F d, y'); ?></div>
+					<div class="date"><?php the_time('F d, Y'); ?></div>
 					<div class="excerpt"><?php the_excerpt(); ?></div>
 				</div>
 

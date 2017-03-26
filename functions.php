@@ -22,4 +22,17 @@ if ( ! function_exists( 'cc_styles' ) ) {
 //add filter to remove margin above html
 add_filter('show_admin_bar','__return_false');
 
-?>
+if(!function_exists('custom_excerpt_length')) {
+    function custom_excerpt_length(){
+        return 20;
+    }
+    add_filter('excerpt_length','custom_excerpt_length');
+}
+
+if(!function_exists('excerpt_more_dots')) {
+    function excerpt_more_dots(){
+        return '...';
+    }
+    add_filter('excerpt_more','excerpt_more_dots');
+}
+
