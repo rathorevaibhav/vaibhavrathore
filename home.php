@@ -1,18 +1,18 @@
 <?php get_header(); ?>
 
-<div class="blogs-page-container">
+<div class="blogs-container">
 	<div class="container">
-		<div class="row">
+		<div class="blog-row">
 		<?php
 			if(have_posts()):
 				while(have_posts()):
 					the_post();
 		?>
-			<a href="<?php the_permalink(); ?>" class="blog-block ">
-				<div class="title"><?php the_title(); ?></div>
-				<div class="date"><?php the_time('F d, Y'); ?></div>
-				<div class="excerpt"><?php the_excerpt(); ?></div>
-			</a>
+				<a class="blog-block" href="<?php the_permalink(); ?>">
+					<div class="title"><?php the_title(); ?></div>
+					<div class="date"><?php the_time('F d, Y'); ?></div>
+					<div class="excerpt"><?php the_excerpt(); ?></div>
+				</a>
 		<?php
 				endwhile;
 			endif;
