@@ -14,6 +14,10 @@ Version: 1.0.0
 body{
 	@extend .worksans-regular;
 }
+a, a:hover, a:focus, a:active, a:visited{
+	text-decoration: none;
+	color: inherit;
+}
 
 .home-container{
 	padding-top: 90px;
@@ -42,7 +46,23 @@ body{
 		}
 	}
 }
-
+.post-title{
+	@extend .worksans-bold;
+	font-size: 30px;
+	line-height: 40px;
+}
+.post-date{
+	@extend .worksans-medium;
+	font-size: 18px;
+	line-height: 25px;
+	color: $green;
+}
+.post-excerpt,
+.post-content{
+	@extend .worksans-regular;
+	font-size: 16px;
+	line-height: 22px;
+}
 .blogs-container{
 	@extend .home-container;
 	.blog-row{
@@ -65,23 +85,31 @@ body{
 	    	transform: scale(1.01);
 	    }
 		.title{
-			@extend .worksans-bold;
-			font-size: 30px;
-			line-height: 40px;
+			@extend .post-title;
 		}
 		.date{
-			@extend .worksans-medium;
-			font-size: 18px;
-			line-height: 25px;
+			@extend .post-date;
 			padding-top: 10px;
-			color: $green;
 		}
 		.excerpt{
-			@extend .worksans-regular;
-			font-size: 16px;
-			line-height: 22px;
+			@extend .post-excerpt;
 			padding-top: 15px;
 		}
+		
+	}
+}
+.page-single-container{
+	@extend .home-container;
+	.title{
+		@extend .post-title;
+	}
+	.date{
+		@extend .post-date;
+		padding-top: 10px;
+	}
+	.content{
+		@extend .post-content;
+		padding-top: 15px;
 	}
 }
 
