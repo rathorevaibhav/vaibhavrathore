@@ -1,0 +1,69 @@
+/*
+Theme Name: Vaibhav Rathore Theme
+Author: Vaibhav Rathore 
+Author URI: http://vaibhavrathore.com
+Description: Theme for Vaibhav Rathore by Vaibhav Rathore
+Version: 1.0.0
+*/
+@font-face { font-family: 'WorkSans-Black'; src: url("dist/fonts/WorkSans-Black.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'WorkSans-Bold'; src: url("dist/fonts/WorkSans-Bold.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'WorkSans-ExtraBold'; src: url("dist/fonts/WorkSans-ExtraBold.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'WorkSans-ExtraLight'; src: url("dist/fonts/WorkSans-ExtraLight.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'WorkSans-Light'; src: url("dist/fonts/WorkSans-Light.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'WorkSans-Medium'; src: url("dist/fonts/WorkSans-Medium.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'WorkSans-Regular'; src: url("dist/fonts/WorkSans-Regular.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'WorkSans-SemiBold'; src: url("dist/fonts/WorkSans-SemiBold.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'WorkSans-Thin'; src: url("dist/fonts/WorkSans-Thin.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+.worksans-black { font-family: 'WorkSans-Black', sans-serif; }
+
+.worksans-bold, .post-title, .blogs-container .blog-block .title, .page-single-container .title { font-family: 'WorkSans-Bold', sans-serif; }
+
+.WorkSans-extrabold { font-family: 'WorkSans-ExtraBold', sans-serif; }
+
+.worksans-extralight { font-family: 'WorkSans-ExtraLight', sans-serif; }
+
+.worksans-light { font-family: 'WorkSans-Light', sans-serif; }
+
+.worksans-medium, .post-date, .blogs-container .blog-block .date, .page-single-container .date { font-family: 'WorkSans-Medium', sans-serif; }
+
+.worksans-regular, body, .post-excerpt, .blogs-container .blog-block .excerpt, .post-content, .page-single-container .content { font-family: 'WorkSans-Regular', sans-serif; }
+
+.worksans-semibold { font-family: 'WorkSans-SemiBold', sans-serif; }
+
+.worksans-thin { font-family: 'WorkSans-Thin', sans-serif; }
+
+a, a:hover, a:focus, a:active, a:visited { text-decoration: none; color: inherit; }
+
+.home-container, .blogs-container, .page-single-container { padding-top: 90px; padding-bottom: 90px; }
+
+#header_nav { background-color: #28A764; color: #FFF; }
+#header_nav .navbar-brand { font-size: 20px; cursor: pointer; text-transform: uppercase; color: #FFF; }
+#header_nav .nav.navbar-nav { font-size: 16px; }
+#header_nav .navbar-toggle { border-color: #FFF; }
+#header_nav .navbar-toggle:hover { background-color: transparent; }
+#header_nav .navbar-toggle .icon-bar { background-color: #FFF; }
+
+.post-title, .blogs-container .blog-block .title, .page-single-container .title { font-size: 30px; line-height: 40px; }
+
+.post-date, .blogs-container .blog-block .date, .page-single-container .date { font-size: 18px; line-height: 25px; color: #28A764; }
+
+.post-excerpt, .blogs-container .blog-block .excerpt, .post-content, .page-single-container .content { font-size: 16px; line-height: 22px; }
+
+.blogs-container .blog-row { display: flex; flex-flow: row wrap; justify-content: space-between; }
+.blogs-container .blog-block { box-sizing: border-box; border: 1px solid #BBB; padding: 15px; border-radius: 10px; margin: 15px; transition: 0.3s transform; cursor: pointer; width: 30%; }
+.blogs-container .blog-block:hover { border: 1px solid #F4645F; box-shadow: 2px 2px 10px #F4645F; transform: scale(1.01); }
+.blogs-container .blog-block .date { padding-top: 10px; }
+.blogs-container .blog-block .excerpt { padding-top: 15px; }
+
+.page-single-container .date { padding-top: 10px; }
+.page-single-container .content { padding-top: 15px; }
+
+/*--------------------------------------------------Large-------------------------------------------------*/
+/*--------------------------------------------------medium-------------------------------------------------*/
+/*--------------------------------------------------tablet-------------------------------------------------*/
+@media only screen and (max-width: 991px) { .blogs-container .blog-block { width: 45%; } }
+/*--------------------------------------------------phone-------------------------------------------------*/
+@media only screen and (max-width: 767px) { .blogs-container .blog-block { width: 100%; } }
+/*--------------------------------------------------phone-------------------------------------------------*/
+
+/*# sourceMappingURL=style.css.map */
