@@ -26,6 +26,11 @@
 			endwhile;
 		endif;
 	?>
+		<div class="row">
+			<div class="col-xs-12 col-md-offset-2 col-md-8 comments-block">
+				<?php comments_template(); ?>
+			</div>	
+		</div>
 	</div>
 </div>
 <?php get_footer(); ?>
