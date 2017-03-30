@@ -22,7 +22,7 @@
 				<?php if(is_front_page()): ?>
 				<a class="navbar-brand"><?php bloginfo('name'); ?></a>
 				<?php else: ?>
-				<a class="navbar-brand" href="<?php site_url(); ?>"><?php bloginfo('name'); ?></a>
+				<a class="navbar-brand" href="<?php echo get_home_url(); ?>"><?php bloginfo('name'); ?></a>
 				<?php endif; ?>
 			</div>
 			<div class="collapse navbar-collapse" id="navbar-collapse-area">
