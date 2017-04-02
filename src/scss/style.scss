@@ -111,8 +111,25 @@ a, a:hover, a:focus, a:active, a:visited{
 		@extend .post-content;
 		padding-top: 15px;
 	}
-	.comments-block{
+	.share-block{
 		padding-top: 60px;
+		.share-text{
+			font-size: 18px;
+			padding-bottom: 5px;
+		}
+		.share-icon{
+			display: inline-block;
+			margin-right: 15px;
+			max-width: 45px;
+			cursor: pointer;
+			transition: 0.3s all ease-in;
+			&:hover{
+				transform: scale(1.1);
+			}
+		}
+	}
+	.comments-block{
+		padding-top: 30px;
 	}
 }
 

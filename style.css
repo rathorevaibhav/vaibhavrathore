@@ -57,7 +57,11 @@ a, a:hover, a:focus, a:active, a:visited { text-decoration: none; color: inherit
 
 .page-single-container .date { padding-top: 10px; }
 .page-single-container .content { padding-top: 15px; }
-.page-single-container .comments-block { padding-top: 60px; }
+.page-single-container .share-block { padding-top: 60px; }
+.page-single-container .share-block .share-text { font-size: 18px; padding-bottom: 5px; }
+.page-single-container .share-block .share-icon { display: inline-block; margin-right: 15px; max-width: 45px; cursor: pointer; transition: 0.3s all ease-in; }
+.page-single-container .share-block .share-icon:hover { transform: scale(1.1); }
+.page-single-container .comments-block { padding-top: 30px; }
 
 #disqus_thread { position: relative; }
 
