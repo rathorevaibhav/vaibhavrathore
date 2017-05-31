@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 if ( ! function_exists( 'cc_scripts' ) ) {
     function cc_scripts() {
@@ -11,7 +11,7 @@ if ( ! function_exists( 'cc_scripts' ) ) {
 }
 
 if ( ! function_exists( 'cc_styles' ) ) {
-    function cc_styles() {  
+    function cc_styles() {
         wp_enqueue_style('cc-bootstrap', get_template_directory_uri().'/dist/lib/css/bootstrap.min.css');
         wp_enqueue_style('style', get_template_directory_uri().'/style.css');
 
@@ -24,7 +24,7 @@ add_filter('show_admin_bar','__return_false');
 
 if(!function_exists('custom_excerpt_length')) {
     function custom_excerpt_length(){
-        return 20;
+        return 40;
     }
     add_filter('excerpt_length','custom_excerpt_length');
 }
@@ -35,4 +35,3 @@ if(!function_exists('excerpt_more_dots')) {
     }
     add_filter('excerpt_more','excerpt_more_dots');
 }
-

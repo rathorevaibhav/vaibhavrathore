@@ -1,6 +1,6 @@
 /*
 Theme Name: Vaibhav Rathore Theme
-Author: Vaibhav Rathore 
+Author: Vaibhav Rathore
 Author URI: http://vaibhavrathore.com
 Description: Theme for Vaibhav Rathore by Vaibhav Rathore
 Version: 1.0.0
@@ -50,13 +50,14 @@ a, a:hover, a:focus, a:active, a:visited { text-decoration: none; color: inherit
 .post-excerpt, .blogs-container .blog-block .excerpt, .post-content, .page-single-container .content { font-size: 16px; line-height: 22px; }
 
 .blogs-container .blog-row { display: flex; flex-flow: row wrap; justify-content: space-between; }
-.blogs-container .blog-block { box-sizing: border-box; border: 1px solid #BBB; padding: 15px; border-radius: 10px; margin: 15px; transition: 0.3s transform; cursor: pointer; width: 30%; }
-.blogs-container .blog-block:hover { border: 1px solid #F4645F; box-shadow: 2px 2px 10px #F4645F; transform: scale(1.01); }
+.blogs-container .blog-block { box-sizing: border-box; border: 1px solid #DDD; padding: 15px; margin: 15px; transition: 0.2s ease-in all; cursor: pointer; width: 30%; }
+.blogs-container .blog-block:hover { border: 1px solid #DDD; box-shadow: 2px 2px 10px #DDD; transform: scale(1.01); }
 .blogs-container .blog-block .date { padding-top: 10px; }
 .blogs-container .blog-block .excerpt { padding-top: 15px; }
 
 .page-single-container .date { padding-top: 10px; }
 .page-single-container .content { padding-top: 15px; }
+.page-single-container .content a { color: #F4645F; text-transform: underline; }
 .page-single-container .share-block { padding-top: 60px; }
 .page-single-container .share-block .share-text { font-size: 18px; padding-bottom: 5px; }
 .page-single-container .share-block .share-icon { display: inline-block; margin-right: 15px; max-width: 45px; cursor: pointer; transition: 0.3s all ease-in; }

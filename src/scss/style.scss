@@ -1,6 +1,6 @@
 /*
 Theme Name: Vaibhav Rathore Theme
-Author: Vaibhav Rathore 
+Author: Vaibhav Rathore
 Author URI: http://vaibhavrathore.com
 Description: Theme for Vaibhav Rathore by Vaibhav Rathore
 Version: 1.0.0
@@ -74,14 +74,14 @@ a, a:hover, a:focus, a:active, a:visited{
 		box-sizing: border-box;
 		border: 1px solid $light-gray;
 	    padding: 15px;
-	    border-radius: 10px;
+	    // border-radius: 2px;
 	    margin: 15px;
-	    transition: 0.3s transform;
+	    transition: 0.2s ease-in all;
 	    cursor: pointer;
 	    width: 30%;
 	    &:hover{
-	    	border: 1px solid $red;
-	    	box-shadow: 2px 2px 10px $red;
+	    	border: 1px solid $light-gray;
+	    	box-shadow: 2px 2px 10px $light-gray;
 	    	transform: scale(1.01);
 	    }
 		.title{
@@ -95,7 +95,7 @@ a, a:hover, a:focus, a:active, a:visited{
 			@extend .post-excerpt;
 			padding-top: 15px;
 		}
-		
+
 	}
 }
 .page-single-container{
@@ -110,6 +110,10 @@ a, a:hover, a:focus, a:active, a:visited{
 	.content{
 		@extend .post-content;
 		padding-top: 15px;
+		a{
+			color: $red;
+			text-decoration: underline;
+		}
 	}
 	.share-block{
 		padding-top: 60px;
