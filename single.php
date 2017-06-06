@@ -10,17 +10,17 @@
 				<div class="row title">
 					<div class="col-xs-12">
 						<?php the_title(); ?>
-					</div>	
+					</div>
 				</div>
 				<div class="row date">
 					<div class="col-xs-12">
 						<?php the_time('F d, Y'); ?>
-					</div>	
+					</div>
 				</div>
 				<div class="row content">
 					<div class="col-xs-12">
 						<?php the_content(); ?>
-					</div>	
+					</div>
 				</div>
 	<?php
 			endwhile;
@@ -56,8 +56,8 @@
 		</div>
 		<div class="row">
 			<div class="col-xs-12 col-md-offset-2 col-md-8 comments-block">
-				<?php comments_template(); ?>
-			</div>	
+				<?php //comments_template(); ?>
+			</div>
 		</div>
 	</div>
 </div>
